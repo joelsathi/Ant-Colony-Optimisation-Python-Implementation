@@ -14,7 +14,7 @@ $$ P_{ij} = \frac{T_{ij}}{\sum_{j=0}^{n} T_{ij}} $$
 Where:
 - \( i \) represents the last node visited.
 - \( j \) represents the nodes that have not been visited yet.
-- \($ T_{ij} $\) is the pheromone level on the edge between nodes \( i \) and \( j \).
+- \($T_{ij}$\) is the pheromone level on the edge between nodes \( i \) and \( j \).
 - The denominator \( $\sum_{j=0}^{n} T_{ij}$ \) is the sum of pheromone levels for all unvisited nodes \( j \) from node \( i \).
 
 After calculating the probabilities, the cumulative probability is computed to bin the values for decision-making.
