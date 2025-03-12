@@ -27,8 +27,8 @@ After calculating the probabilities, the cumulative probability is computed to b
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/joelsathi/Ant-Colony-Optimisation-Python-Implementation.git
+   cd Ant-Colony-Optimisation-Python-Implementation
    ```
 2. Install dependencies:
    ```bash
